@@ -1,0 +1,24 @@
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    grid-gap: 1em;
+    grid-auto-rows: 100px;
+    grid-auto-flow: column;
+}
+
+.box {
+    background-color: tomato;
+}
+
+.container img {
+    height: 100%;
+    width: 100%;
+  }
+    
+.Images {
+    object-fit: cover;
+    object-position: center;
+}
